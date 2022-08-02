@@ -68,6 +68,7 @@
 (defun scala/init-scala-mode ()
   (use-package scala-mode
     :defer t
+    :mode "\\.sc\\'"
     :init
     (progn
       (dolist (ext '(".cfe" ".cfs" ".si" ".gen" ".lock"))
